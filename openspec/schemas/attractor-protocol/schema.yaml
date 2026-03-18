@@ -3,7 +3,7 @@ name: attractor-protocol
 version: 1
 description: >
   Living systems intervention workflow.
-  Changes are hypotheses. Implementation is testing.
+  Gestures are hypotheses. Implementation is testing.
   Learning is the goal, not shipping.
 
 artifacts:
@@ -33,14 +33,14 @@ artifacts:
       Must be falsifiable. Must specify evidence tier.
     template: contact-test.md
     requires:
-      - intervention
+      - gesture
 
   - id: specs
     generates: specs/
     description: >
       Delta specs describing how behavior changes.
       Not requirements — descriptions of what the system
-      will do differently after this intervention.
+      will do differently after this gesture.
     template: specs.md
     requires:
       - contact-test
