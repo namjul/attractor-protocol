@@ -66,8 +66,23 @@ Both confirmed and falsified hypotheses count as learning.
 
 ## Integrations
 
-→ **[OpenSpec](integrations/openspec/README.md)** — use AP with OpenSpec's
-spec-driven development workflow
+→ **[OpenSpec](integrations/openspec/README.md)** — detailed setup and usage
+
+**Three ways to use this schema:**
+
+1. **User-level install** (recommended for personal use):
+   ```bash
+   mkdir -p ~/.local/share/openspec/schemas/
+   cp -r openspec/schemas/attractor-protocol ~/.local/share/openspec/schemas/
+   ```
+
+2. **Project-level** (commit to repo):
+   Copy `openspec/schemas/attractor-protocol/` to your project's openspec setup
+
+3. **Symlink** (development/contributing):
+   ```bash
+   ln -s $(pwd)/openspec/schemas/attractor-protocol ~/.local/share/openspec/schemas/
+   ```
 
 ## Who this is for
 
