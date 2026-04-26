@@ -3,6 +3,7 @@
 A methodology for software development that treats systems as living structures and demands epistemic discipline to prevent mythology from masquerading as engineering.
 
 TLDR
+```
 ┌─────────────────────────────────────────────────────────────┐
 │                  Attractor Protocol Flow                    │
 ├─────────────────────────────────────────────────────────────┤
@@ -14,6 +15,7 @@ TLDR
 │  6. evidence.md → Contact test results & learning           │
 │  7. archive → Accumulate learned schema to openspec/specs/ │
 └─────────────────────────────────────────────────────────────┘
+```
 
 ## The problem it solves
 
@@ -70,16 +72,16 @@ Both confirmed and falsified hypotheses count as learning.
 
 ## Documents
 
-→ **[Attractor Protocol](docs/attractor-protocol.md)** — the full methodology
-→ **[AGENTS.md](docs/AGENTS.md)** — how AI agents should work within AP
-→ **[COMMITS.md](docs/COMMITS.md)** — commit convention for living systems
-→ **[BOARD.md](docs/BOARD.md)** — work organization alternative to Kanban
-→ **[TESTING.md](docs/TESTING.md)** — contact testing practices
-→ **[GLOSSARY.md](docs/GLOSSARY.md)** — operational definitions
+- **[Attractor Protocol](docs/attractor-protocol.md)** — the full methodology
+- **[AGENTS.md](docs/AGENTS.md)** — how AI agents should work within AP
+- **[COMMITS.md](docs/COMMITS.md)** — commit convention for living systems
+- **[BOARD.md](docs/BOARD.md)** — work organization alternative to Kanban
+- **[TESTING.md](docs/TESTING.md)** — contact testing practices
+- **[GLOSSARY.md](docs/GLOSSARY.md)** — operational definitions
 
 ## Integrations
 
-→ **[OpenSpec](integrations/openspec/README.md)** — detailed setup and usage
+- **[OpenSpec](integrations/openspec/README.md)** — detailed setup and usage
 
 **Three ways to use this schema:**
 
